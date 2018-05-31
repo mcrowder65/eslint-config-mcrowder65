@@ -1,9 +1,9 @@
 module.exports = {
     root: true,
-    extends: ["walmart", "jest/recommended"],
+    extends: ["walmart"],
     parser: "babel-eslint",
 
-    plugins: ["import", "react", "babel"],
+    plugins: ["import", "react", "babel", "jest/recommended"],
 
     env: {
         browser: true,

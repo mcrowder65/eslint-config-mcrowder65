@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-mcrowder65",
+  "version": "0.0.2",
+  "description": "Matt Crowder's eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrowder65/eslint-config-mcrowder65.git"
+  },
+  "keywords": [
+    "matt"
+  ],
+  "author": "mcrowder65",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrowder65/eslint-config-mcrowder65/issues"
+  },
+  "homepage": "https://github.com/mcrowder65/eslint-config-mcrowder65#readme",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2"
+  }
+}

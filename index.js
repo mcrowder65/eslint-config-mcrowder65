@@ -1,9 +1,9 @@
 module.exports = {
     root: true,
-    extends: ["walmart"],
+    extends: ["walmart", "jest/recommended"],
     parser: "babel-eslint",
 
-    plugins: ["import", "react"],
+    plugins: ["import", "react", "babel"],
 
     env: {
         browser: true,
@@ -22,7 +22,12 @@ module.exports = {
             experimentalObjectRestSpread: true
         }
     },
-
+    settings: {
+        "import/core-modules": [
+            "redux-saga/effects",
+            "redux-saga/utils"
+        ]
+    },
     rules: {
         "eol-last": [
             "off"
@@ -51,6 +56,5 @@ module.exports = {
         "react/require-default-props": ["error"],
         "react/jsx-handler-names": ["error"],
         "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}]
-
     }
 };

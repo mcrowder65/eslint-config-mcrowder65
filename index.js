@@ -44,9 +44,7 @@ module.exports = {
         "func-style": [
             "off"
         ],
-        "no-use-before-define": [
-            "warn"
-        ],
+        "no-use-before-define": ["error", { "functions": false }],
         "import/no-unresolved": ["error"],
         "import/named": ["error"],
         "import/default": ["error"],

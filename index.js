@@ -23,5 +23,34 @@ module.exports = {
         }
     },
 
-    rules: {}
+    rules: {
+        "eol-last": [
+            "off"
+        ],
+        "valid-jsdoc": [
+            "off"
+        ],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true
+            }
+        ],
+        "func-style": [
+            "off"
+        ],
+        "no-use-before-define": [
+            "warn"
+        ],
+        "import/no-unresolved": ["error"],
+        "import/named": ["error"],
+        "import/default": ["error"],
+        "import/export": ["error"],
+        "import/no-duplicates": ["error"],
+        "react/no-unused-prop-types": ["error"],
+        "react/require-default-props": ["error"],
+        "react/jsx-handler-names": ["error"],
+        "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}]
+
+    }
 };

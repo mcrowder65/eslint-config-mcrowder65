@@ -62,6 +62,7 @@ module.exports = {
         "array-bracket-newline": ["error", {"multiline": true}],
         "require-await": "error",
         "no-whitespace-before-property": "error",
+        "react/jsx-uses-react": "error",
         "no-debugger": "warn",
         "no-console": "warn"
     }

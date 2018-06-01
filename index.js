@@ -3,14 +3,15 @@ module.exports = {
     extends: ["walmart", "plugin:jest/recommended"],
     parser: "babel-eslint",
 
-    plugins: ["import", "react", "babel"],
+    plugins: ["import", "react", "babel", "cypress"],
 
     env: {
         browser: true,
         commonjs: true,
         es6: true,
         jest: true,
-        node: true
+        node: true,
+        "cypress/globals": true
     },
 
     parserOptions: {

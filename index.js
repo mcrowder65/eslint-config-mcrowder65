@@ -54,6 +54,7 @@ module.exports = {
         "react/no-unused-prop-types": ["error"],
         "react/require-default-props": ["error"],
         "react/jsx-handler-names": ["error"],
-        "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}]
+        "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}],
+        "indent": ["error", 2]
     }
 };

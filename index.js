@@ -57,6 +57,7 @@ module.exports = {
         "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}],
         "indent": ["error", 2],
         "spaced-comment": ["error", "always"],
-        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }]
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+        "eqeqeq": "off"
     }
 };

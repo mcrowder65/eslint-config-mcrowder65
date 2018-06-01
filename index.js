@@ -53,7 +53,7 @@ module.exports = {
         "import/no-duplicates": ["error"],
         "react/no-unused-prop-types": ["error"],
         "react/require-default-props": ["error"],
-        "react/jsx-handler-names": ["error"],
+        "react/jsx-handler-names": ["off"],
         "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}],
         "indent": ["error", 2],
         "spaced-comment": ["error", "always"],

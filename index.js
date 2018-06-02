@@ -65,7 +65,9 @@ module.exports = {
         "no-whitespace-before-property": "error",
         "react/jsx-uses-react": "error",
         "quote-props": "off",
+        "react/jsx-uses-vars": 2,
         "no-debugger": "warn",
-        "no-console": "warn"
+        "no-console": "warn",
+        
     }
 };

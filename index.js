@@ -27,7 +27,8 @@ module.exports = {
         "import/core-modules": [
             "redux-saga/effects",
             "redux-saga/utils"
-        ]
+        ],
+        "import/resolver": "webpack"
     },
     rules: {
         "eol-last": [

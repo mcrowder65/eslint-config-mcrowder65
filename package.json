@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mcrowder65",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Matt Crowder's eslint config",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-walmart": "^2.2.0",
+    "eslint-import-resolver-webpack": "^0.10.0",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-cypress": "^2.0.1",
     "eslint-plugin-filenames": "^1.2.0",

@@ -66,6 +66,7 @@ module.exports = {
         "react/jsx-uses-react": "error",
         "quote-props": "off",
         "react/jsx-uses-vars": 2,
+        "no-magic-numbers": "off",
         "no-debugger": "warn",
         "no-console": "warn",
         

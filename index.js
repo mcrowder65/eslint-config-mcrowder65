@@ -67,8 +67,8 @@ module.exports = {
         "quote-props": "off",
         "react/jsx-uses-vars": 2,
         "no-magic-numbers": "off",
+        "object-curly-spacing": ["error", "always"],
         "no-debugger": "warn",
         "no-console": "warn",
-        
     }
 };

@@ -56,7 +56,7 @@ module.exports = {
         "react/require-default-props": ["error"],
         "react/jsx-handler-names": ["off"],
         "import/order": ["error", {"groups": [["builtin", "external"]], "newlines-between": "always"}],
-        "indent": ["error", 2],
+        "indent": ["error", 2, {"SwitchCase": 1}],
         "spaced-comment": ["error", "always"],
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
         "eqeqeq": "off",

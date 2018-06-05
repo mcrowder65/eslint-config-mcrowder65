@@ -68,6 +68,7 @@ module.exports = {
         "react/jsx-uses-vars": 2,
         "no-magic-numbers": "off",
         "object-curly-spacing": ["error", "always"],
+        "new-cap": "off",
         "no-debugger": "warn",
         "no-console": "warn",
     }

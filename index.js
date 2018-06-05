@@ -69,6 +69,7 @@ module.exports = {
         "no-magic-numbers": "off",
         "object-curly-spacing": ["error", "always"],
         "new-cap": "off",
+        "comma-dangle": "off",
         "no-debugger": "warn",
         "no-console": "warn",
     }

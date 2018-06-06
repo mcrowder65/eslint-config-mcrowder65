@@ -70,6 +70,8 @@ module.exports = {
         "object-curly-spacing": ["error", "always"],
         "new-cap": "off",
         "comma-dangle": "off",
+        "no-invalid-this": 0,
+        "babel/no-invalid-this": 2
         "no-debugger": "warn",
         "no-console": "warn",
     }

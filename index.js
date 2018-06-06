@@ -73,6 +73,7 @@ module.exports = {
         "comma-dangle": "off",
         "no-invalid-this": 0,
         "babel/no-invalid-this": 2,
+        "react/prop-types": "error",
         "no-debugger": "warn",
         "no-console": "warn",
     }

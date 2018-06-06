@@ -60,6 +60,7 @@ module.exports = {
         "spaced-comment": ["error", "always"],
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
         "eqeqeq": "off",
+        "import/newline-after-import": ["error", { "count": 1 }],
         "array-bracket-newline": ["error", {"multiline": true}],
         "require-await": "error",
         "no-whitespace-before-property": "error",

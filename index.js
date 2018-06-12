@@ -47,7 +47,7 @@ module.exports = {
             "off"
         ],
         "no-use-before-define": ["error", { "functions": false }],
-        "import/no-unresolved": ["error"],
+        "import/no-unresolved": ["error", { caseSensitive: false }],
         "import/named": ["error"],
         "import/default": ["error"],
         "import/export": ["error"],

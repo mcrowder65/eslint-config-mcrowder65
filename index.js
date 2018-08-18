@@ -76,5 +76,6 @@ module.exports = {
         "react/prop-types": "error",
         "no-debugger": "warn",
         "no-console": "warn",
+        "no-alert": "off"
     }
 };

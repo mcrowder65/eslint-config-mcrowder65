@@ -46,6 +46,7 @@ module.exports = {
         "func-style": [
             "off"
         ],
+        "arrow-parens": ["error", "always"],
         "no-use-before-define": ["error", { "functions": false }],
         "import/no-unresolved": ["error", { caseSensitive: false }],
         "import/named": ["error"],
@@ -70,7 +71,7 @@ module.exports = {
         "no-magic-numbers": "off",
         "object-curly-spacing": ["error", "always"],
         "new-cap": "off",
-        "comma-dangle": "off",
+        "comma-dangle": ["error", "always"],
         "no-invalid-this": 0,
         "babel/no-invalid-this": 2,
         "react/prop-types": "error",

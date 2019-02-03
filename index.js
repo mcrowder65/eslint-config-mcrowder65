@@ -70,7 +70,7 @@ module.exports = {
         "no-magic-numbers": "off",
         "object-curly-spacing": ["error", "always"],
         "new-cap": "off",
-        "comma-dangle": ["error", "always"],
+        "comma-dangle": "off",
         "no-invalid-this": 0,
         "babel/no-invalid-this": 2,
         "react/prop-types": "error",

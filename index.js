@@ -46,7 +46,6 @@ module.exports = {
         "func-style": [
             "off"
         ],
-        "no-shadow": "off",
         "arrow-parens": ["error", "always"],
         "no-use-before-define": ["error", { "functions": false }],
         "import/no-unresolved": ["error", { caseSensitive: false }],

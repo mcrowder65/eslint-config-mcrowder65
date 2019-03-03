@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mcrowder65",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "Matt Crowder's eslint config",
   "main": "index.js",
   "scripts": {

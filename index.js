@@ -61,7 +61,7 @@ module.exports = {
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
         "eqeqeq": "off",
         "import/newline-after-import": "off",
-        "array-bracket-newline": ["error", {"multiline": true}],
+        "array-bracket-newline": "off",
         "require-await": "error",
         "no-whitespace-before-property": "error",
         "react/jsx-uses-react": "error",
@@ -76,6 +76,6 @@ module.exports = {
         "react/prop-types": "error",
         "no-debugger": "warn",
         "no-console": "warn",
-        "no-alert": "off"
+        "no-alert": "off",
     }
 };

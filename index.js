@@ -58,6 +58,7 @@ module.exports = {
         "indent": ["error", 2, {"SwitchCase": 1}],
         "spaced-comment": ["error", "always"],
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+        "arrow-parens": "off",
         "eqeqeq": "off",
         "import/newline-after-import": "off",
         "array-bracket-newline": "off",

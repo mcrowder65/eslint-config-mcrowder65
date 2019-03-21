@@ -46,7 +46,6 @@ module.exports = {
         "func-style": [
             "off"
         ],
-        "arrow-parens": ["error", "always"],
         "no-use-before-define": ["error", { "functions": false }],
         "import/no-unresolved": ["error", { caseSensitive: false }],
         "import/named": ["error"],
@@ -75,6 +74,6 @@ module.exports = {
         "react/prop-types": ["error", {skipUndeclared: true}],
         "no-debugger": "warn",
         "no-console": "warn",
-        "no-alert": "off",
+        "no-alert": "off"
     }
 };

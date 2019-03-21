@@ -64,6 +64,7 @@ module.exports = {
         "require-await": "error",
         "no-whitespace-before-property": "error",
         "react/jsx-uses-react": "error",
+        "comma-dangle": "off",
         "quote-props": "off",
         "react/jsx-uses-vars": 2,
         "no-magic-numbers": "off",

@@ -76,6 +76,7 @@ module.exports = {
         "react/prop-types": ["error", {skipUndeclared: true}],
         "no-debugger": "warn",
         "no-console": "warn",
-        "no-alert": "off"
+        "no-alert": "off",
+        "filenames/match-regex": "off",
     }
 };

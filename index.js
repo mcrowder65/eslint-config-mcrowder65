@@ -56,7 +56,7 @@ module.exports = {
         "react/require-default-props": ["off"],
         "react/jsx-handler-names": ["off"],
         "indent": ["error", 2, {"SwitchCase": 1}],
-        "spaced-comment": ["error", "always"],
+        "spaced-comment": "off",
         "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
         "arrow-parens": "off",
         "eqeqeq": "off",

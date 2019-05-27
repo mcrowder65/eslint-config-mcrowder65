@@ -79,5 +79,6 @@ module.exports = {
         "no-alert": "off",
         "max-statements": "off",
         "filenames/match-regex": "off",
+        "max-statements": "off"
     }
 };

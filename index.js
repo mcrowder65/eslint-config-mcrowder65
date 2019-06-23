@@ -3,7 +3,7 @@ module.exports = {
     extends: ["walmart", "plugin:jest/recommended"],
     parser: "babel-eslint",
 
-    plugins: ["import", "react", "babel", "cypress"],
+    plugins: ["import", "react", "babel", "cypress", "react-native"],
 
     env: {
         browser: true,

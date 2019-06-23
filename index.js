@@ -79,6 +79,7 @@ module.exports = {
         "no-alert": "off",
         "max-statements": "off",
         "filenames/match-regex": "off",
-        "consistent-return": "off"
+        "consistent-return": "off",
+        "react-native/no-unused-styles": "error"
     }
 };

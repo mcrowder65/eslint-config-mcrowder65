@@ -76,6 +76,7 @@ module.exports = {
         "no-debugger": "warn",
         "no-console": "warn",
         "no-alert": "off",
+        "max-nested-callbacks": "off",
         "max-statements": "off",
         "filenames/match-regex": "off",
         "consistent-return": "off",

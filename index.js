@@ -72,6 +72,7 @@ module.exports = {
     "filenames/match-regex": "off",
     "consistent-return": "off",
     "react-native/no-unused-styles": "error",
-    camelcase: "off"
+    camelcase: "off",
+    semi: "off"
   }
 };

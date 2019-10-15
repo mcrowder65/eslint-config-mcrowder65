@@ -73,6 +73,7 @@ module.exports = {
     "consistent-return": "off",
     "react-native/no-unused-styles": "error",
     camelcase: "off",
-    semi: "off"
+    semi: "off",
+    "no-array-constructor": "off"
   }
 };

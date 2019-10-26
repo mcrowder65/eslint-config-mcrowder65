@@ -52,7 +52,7 @@ module.exports = {
     eqeqeq: "off",
     "import/newline-after-import": "off",
     "array-bracket-newline": "off",
-    "require-await": "error",
+    "require-await": "off",
     "no-whitespace-before-property": "error",
     "react/jsx-uses-react": "error",
     "comma-dangle": "off",

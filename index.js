@@ -74,6 +74,7 @@ module.exports = {
     "react-native/no-unused-styles": "error",
     camelcase: "off",
     semi: "off",
-    "no-array-constructor": "off"
+    "no-array-constructor": "off",
+    "prefer-const": "off"
   }
 };

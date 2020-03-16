@@ -2,14 +2,13 @@ module.exports = {
   root: true,
   extends: ["walmart", "plugin:jest/recommended"],
   parser: "babel-eslint",
-  plugins: ["import", "react", "babel", "cypress", "react-native"],
+  plugins: ["import", "react", "babel", "react-native"],
   env: {
     browser: true,
     commonjs: true,
     es6: true,
     jest: true,
-    node: true,
-    "cypress/globals": true
+    node: true
   },
   parserOptions: {
     ecmaVersion: 6,

@@ -21,7 +21,10 @@ module.exports = {
   },
   settings: {
     "import/core-modules": ["redux-saga/effects", "redux-saga/utils"],
-    "import/resolver": "webpack"
+    "import/resolver": "webpack",
+    react: {
+      version: "detect"
+    }
   },
   rules: {
     "eol-last": ["off"],
@@ -74,6 +77,7 @@ module.exports = {
     camelcase: "off",
     semi: "off",
     "no-array-constructor": "off",
-    "prefer-const": "off"
+    "prefer-const": "off",
+    "jest/expect-expect": "off"
   }
 };

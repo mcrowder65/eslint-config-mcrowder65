@@ -78,6 +78,7 @@ module.exports = {
     semi: "off",
     "no-array-constructor": "off",
     "prefer-const": "off",
-    "jest/expect-expect": "off"
+    "jest/expect-expect": "off",
+    complexity: "off"
   }
 };

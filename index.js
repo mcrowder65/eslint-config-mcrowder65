@@ -79,6 +79,8 @@ module.exports = {
     "no-array-constructor": "off",
     "prefer-const": "off",
     "jest/expect-expect": "off",
+    "no-unused-expressions": "off",
+    "babel/no-unused-expressions": "error",
     complexity: "off"
   }
 };

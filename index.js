@@ -1,14 +1,14 @@
 module.exports = {
   root: true,
   extends: ["walmart", "plugin:jest/recommended"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   plugins: ["import", "react", "babel", "react-native"],
   env: {
     browser: true,
     commonjs: true,
     es6: true,
     jest: true,
-    node: true
+    node: true,
   },
   parserOptions: {
     ecmaVersion: 6,
@@ -16,15 +16,15 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       generators: true,
-      experimentalObjectRestSpread: true
-    }
+      experimentalObjectRestSpread: true,
+    },
   },
   settings: {
     "import/core-modules": ["redux-saga/effects", "redux-saga/utils"],
     "import/resolver": "webpack",
     react: {
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
   rules: {
     "eol-last": ["off"],
@@ -32,8 +32,8 @@ module.exports = {
     "no-param-reassign": [
       "error",
       {
-        props: true
-      }
+        props: true,
+      },
     ],
     "func-style": ["off"],
     "no-use-before-define": ["error", { functions: false }],
@@ -48,7 +48,7 @@ module.exports = {
     "spaced-comment": "off",
     "no-unused-vars": [
       "error",
-      { vars: "all", args: "after-used", ignoreRestSiblings: true }
+      { vars: "all", args: "after-used", ignoreRestSiblings: true },
     ],
     "arrow-parens": "off",
     eqeqeq: "off",
@@ -81,6 +81,6 @@ module.exports = {
     "jest/expect-expect": "off",
     "no-unused-expressions": "off",
     "babel/no-unused-expressions": "error",
-    complexity: "off"
-  }
+    complexity: "off",
+  },
 };

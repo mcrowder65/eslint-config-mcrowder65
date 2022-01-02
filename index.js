@@ -1,6 +1,10 @@
 module.exports = {
   root: true,
-  extends: ["walmart", "plugin:jest/recommended"],
+  extends: [
+    "walmart",
+    "plugin:jest/recommended",
+    "plugin:react-hooks/recommended",
+  ],
   parser: "@babel/eslint-parser",
   plugins: ["import", "react", "babel", "react-native"],
   env: {
@@ -29,12 +33,6 @@ module.exports = {
   rules: {
     "eol-last": ["off"],
     "valid-jsdoc": ["off"],
-    "no-param-reassign": [
-      "error",
-      {
-        props: true,
-      },
-    ],
     "func-style": ["off"],
     "no-use-before-define": ["error", { functions: false }],
     "import/no-unresolved": ["error", { caseSensitive: false }],
@@ -67,7 +65,6 @@ module.exports = {
     "babel/no-invalid-this": 2,
     "react/prop-types": ["error", { skipUndeclared: true }],
     "no-debugger": "warn",
-    "no-console": "warn",
     "no-alert": "off",
     "max-nested-callbacks": "off",
     "max-statements": "off",
@@ -82,5 +79,9 @@ module.exports = {
     "no-unused-expressions": "off",
     "babel/no-unused-expressions": "error",
     complexity: "off",
+    "react-hooks/exhaustive-deps": "error",
+    "no-console": "error",
+    "no-param-reassign": "off",
+    "no-shadow": "off",
   },
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mcrowder65",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Matt Crowder's eslint config",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jest": "25.3.3",
     "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-react-native": "4.0.0",
     "prettier": "2.5.1"
   }
